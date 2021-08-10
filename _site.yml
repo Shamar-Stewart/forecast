@@ -1,0 +1,21 @@
+name: "Interactive Intro to BSE"
+navbar:
+  title: "Interactive Intro to BSE"
+  type: inverse
+  left:
+    - text: "Units and Calculations"
+      href: units-and-calculations.html
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:wrightrc@vt.edu
+    - text: "GitHub"
+      icon: fa-github
+      href: https://www.github.com/wrightrc
+output:
+  html_document:
+    includes:
+      in_header: header.html
+      css: "style.css"
+output_dir: "docs"
+

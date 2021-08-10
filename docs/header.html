@@ -1,0 +1,17 @@
+<script type="text/javascript">
+// https://stackoverflow.com/questions/20568997/how-to-resize-iframe-on-window-resize/54488530
+// set initial size
+$( document ).ready(function() {
+    SetIframeSize();
+});
+
+// resize on window resize
+$(window).on('resize', function(){
+      SetIframeSize();
+});
+
+function SetIframeSize(){
+    $("#external").width($(window).width() - 18);
+    $("#external").height($(window).height() - 35);
+}
+</script>
