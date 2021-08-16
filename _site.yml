@@ -5,12 +5,27 @@ navbar:
   left:
     - text: "Units and Calculations"
       href: units-and-calculations.html
+    - text: "Mass and Energy Balances"
+      href: mass-and-energy-balances.html
+    - text: "Data and Statistics"
+      href: data-and-stats.html
+    - text: "Labs"
+      icon: fa-chevron-circle-down
+      menu:
+        - text: "Lab1 Protein Separation"
+          href: protein-separation.html
+        - text: "Lab2 Rainfall Simulator"
+          href: rainfall-simulator.html
+        - text: "Lab3 Energy Balance"
+          href: energy-balance.html
+        - text: "Lab4 Mass Flows"
+          href: mass-flows.html
+        - text: "Lab5 Cell Growth"
+          href: cell-growth.html
   right:
-    - text: "Contact me"
-      icon: fa-envelope-o
+    - icon: fa-envelope-o
       href: mailto:wrightrc@vt.edu
-    - text: "GitHub"
-      icon: fa-github
+    - icon: fa-github
       href: https://www.github.com/wrightrc
 output:
   html_document:
