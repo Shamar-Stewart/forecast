@@ -3,14 +3,17 @@ navbar:
   title: "Interactive Intro to BSE"
   type: inverse
   left:
-    - text: "Intro Survey"
+    - text: "Introduction"
       href: intro.html
-    - text: "Units and Calculations"
-      href: units-and-calculations.html
-    - text: "Mass and Energy Balances"
-      href: mass-and-energy-balances.html
-    - text: "Data and Statistics"
-      href: data-and-stats.html
+    - text: "Engineering Principles"
+      icon: fa-chevron-circle-down
+      menu:
+        - text: "Units and Calculations"
+          href: units-and-calculations.html
+        - text: "Mass and Energy Balances"
+          href: mass-and-energy-balances.html
+        - text: "Data and Statistics"
+          href: data-and-stats.html
     - text: "Labs"
       icon: fa-chevron-circle-down
       menu:
