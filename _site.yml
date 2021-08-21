@@ -3,6 +3,8 @@ navbar:
   title: "Interactive Intro to BSE"
   type: inverse
   left:
+    - text: "Intro Survey"
+      href: intro.html
     - text: "Units and Calculations"
       href: units-and-calculations.html
     - text: "Mass and Energy Balances"
