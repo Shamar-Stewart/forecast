@@ -17,21 +17,21 @@ navbar:
     - text: "Labs"
       icon: fa-chevron-circle-down
       menu:
-        - text: "Lab1 Protein Separation"
+        - text: "1 Protein Separation"
           href: protein-separation.html
-        - text: "Lab2 Rainfall Simulator"
+        - text: "2 Rainfall Simulator"
           href: rainfall-simulator.html
-        - text: "Lab3 Energy Balance"
+        - text: "3 Energy Balance"
           href: energy-balance.html
-        - text: "Lab4 Mass Flows"
+        - text: "4 Mass Flows"
           href: mass-flows.html
-        - text: "Lab5 Cell Growth"
+        - text: "5 Cell Growth"
           href: cell-growth.html
   right:
     - icon: fa-envelope-o
       href: mailto:wrightrc@vt.edu
     - icon: fa-github
-      href: https://www.github.com/wrightrc
+      href: https://www.github.com/wrightrc/interactiveBSE
 output:
   html_document:
     includes:
