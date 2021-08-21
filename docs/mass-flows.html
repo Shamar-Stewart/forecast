@@ -261,16 +261,27 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="intro.html">Intro Survey</a>
+  <a href="intro.html">Introduction</a>
 </li>
-<li>
-  <a href="units-and-calculations.html">Units and Calculations</a>
-</li>
-<li>
-  <a href="mass-and-energy-balances.html">Mass and Energy Balances</a>
-</li>
-<li>
-  <a href="data-and-stats.html">Data and Statistics</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-chevron-circle-down"></span>
+     
+    Engineering Principles
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="units-and-calculations.html">Units and Calculations</a>
+    </li>
+    <li>
+      <a href="mass-and-energy-balances.html">Mass and Energy Balances</a>
+    </li>
+    <li>
+      <a href="data-and-stats.html">Data and Statistics</a>
+    </li>
+  </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -282,19 +293,19 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="protein-separation.html">Lab1 Protein Separation</a>
+      <a href="protein-separation.html">1 Protein Separation</a>
     </li>
     <li>
-      <a href="rainfall-simulator.html">Lab2 Rainfall Simulator</a>
+      <a href="rainfall-simulator.html">2 Rainfall Simulator</a>
     </li>
     <li>
-      <a href="energy-balance.html">Lab3 Energy Balance</a>
+      <a href="energy-balance.html">3 Energy Balance</a>
     </li>
     <li>
-      <a href="mass-flows.html">Lab4 Mass Flows</a>
+      <a href="mass-flows.html">4 Mass Flows</a>
     </li>
     <li>
-      <a href="cell-growth.html">Lab5 Cell Growth</a>
+      <a href="cell-growth.html">5 Cell Growth</a>
     </li>
   </ul>
 </li>
@@ -307,7 +318,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="https://www.github.com/wrightrc">
+  <a href="https://www.github.com/wrightrc/interactiveBSE">
     <span class="fa fa-github"></span>
      
   </a>
@@ -326,7 +337,7 @@ $(document).ready(function () {
 
 
 <!---Lab4 Mass Flows-->
-<iframe id="learnR" src="https://wrightrc.shinyapps.io/mass-flows/" style="border: 0px solid black; width: 100%; min-height: 1000px">
+<iframe id="learnR" src="https://bser2.bse.vt.edu:3838/mass-flows/" style="border: 0px solid black; width: 100%; min-height: 1000px">
 </iframe>
 
 
