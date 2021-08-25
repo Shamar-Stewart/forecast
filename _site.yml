@@ -29,7 +29,7 @@ navbar:
           href: cell-growth.html
   right:
     - icon: fa-envelope-o
-      href: mailto:wrightrc@vt.edu
+      href: https://piazza.com/class/ksakwdts94t37q
     - icon: fa-github
       href: https://www.github.com/wrightrc/interactiveBSE
 output:
