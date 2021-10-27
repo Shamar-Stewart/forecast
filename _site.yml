@@ -4,7 +4,7 @@ navbar:
   type: inverse
   left:
     - text: "Introduction"
-      href: intro.html
+      href: http://bser2.bse.vt.edu:3838/intro/
     - text: "Engineering Principles"
       icon: fa-chevron-circle-down
       menu:
@@ -18,7 +18,7 @@ navbar:
       icon: fa-chevron-circle-down
       menu:
         - text: "1 Protein Separation"
-          href: protein-separation.html
+          href: http://bser2.bse.vt.edu:3838/protein-separation/
         - text: "2 Rainfall Simulator"
           href: rainfall-simulator.html
         - text: "3 Energy Balance"
