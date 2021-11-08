@@ -26,7 +26,7 @@ navbar:
         - text: "4 Mass Flows"
           href: mass-flows.html
         - text: "5 Cell Growth"
-          href: cell-growth.html
+          href: http://bser2.bse.vt.edu:3838/cell-growth/
   right:
     - icon: fa-envelope-o
       href: https://piazza.com/class/ksakwdts94t37q
