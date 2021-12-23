@@ -1,6 +1,6 @@
-name: "Interactive Intro to BSE"
+name: "Applied Economic Forecasting"
 navbar:
-  title: "Interactive Intro to BSE"
+  title: "Applied Economic Forecasting"
   type: inverse
   left:
     - text: "Introduction"
@@ -29,13 +29,17 @@ navbar:
           href: cell-growth.html
   right:
     - icon: fa-envelope-o
-      href: mailto:wrightrc@vt.edu
+      href: mailto:stewartls@vt.edu
+    - icon: fa-university fa-lg 
+      href: https://vt.edu
     - icon: fa-github
       href: https://www.github.com/wrightrc/interactiveBSE
 output:
   html_document:
     includes:
       in_header: header.html
-      css: "style.css"
+      after-body: footer.html
+      css: "styles.css"
 output_dir: "docs"
+
 
